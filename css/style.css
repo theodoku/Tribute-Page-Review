@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: rgb(15, 158, 158);
+}
+
+.link,
+.logo {
+  padding: 0 20px;
+  margin: 10px 5px;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin: 5px;
+  text-transform: capitalize;
+  transition: 0.5s linear;
+}
+
+.link a:hover {
+  border-bottom: 1px solid rgb(15, 158, 158);
+  color: rgb(15, 158, 158);
+}
+
+.main {
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.main img {
+  width: 100%;
+  height: 70vh;
+}
+
+.main p {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 500px;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 25px;
+  color: smokewhite;
+}
+
+#history {
+  width: 95%;
+  margin: auto;
+  padding: 20px;
+}
+
+#history h2 {
+  text-transform: capitalize;
+  margin: 20px;
+  font-size: 30px;
+  color: rgb(15, 158, 158);
+  text-align: center;
+}
+
+#history ul {
+  width: 70%;
+  margin: auto;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+#history list {
+  margin: 10px;
+  text-align: left;
+}
+
+#pictures {
+  text-align: center;
+  margin: 20px;
+}
+
+#pictures h2 {
+  margin: 20px;
+  font-size: 30px;
+  color: rgb(15, 158, 158);
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pic {
+  width: 20%;
+}
+
+.pic img {
+  width: 100%;
+  height: 200px;
+  transition: 0.3s linear;
+}
+
+.pic img:hover {
+  transform: scale(1.5);
+}
+
+#quotes {
+  font-size: 25px;
+  margin: 20px;
+  text-align: center;
+}
